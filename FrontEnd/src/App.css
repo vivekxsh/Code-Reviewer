@@ -31,16 +31,6 @@ main .left {
   position: relative;
 }
 
-/* .left .code,
-.code pre,
-.code pre code {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  border-radius: 0.7rem;
-  background-color: #0c0c0c;
-} */
-
 
 .left .code {
   height: 100%;
@@ -122,24 +112,6 @@ main .right {
   background-size: 200% 100%;
   background-position: left center;
 
-
-
-  /* position: absolute;
-  bottom: 1rem;
-  right: 10rem;
-  background: linear-gradient(to right, rgb(219, 219, 255), rgb(219, 219, 255));
-  color: #000000;
-  padding: 0.5rem 2rem;
-  font-weight: 500;
-  cursor: pointer;
-  user-select: none;
-  border-radius: 0.7rem;
-  transition: background-position 0.4s ease, color 0.4s ease;
-  background-size: 200% 100%;
-  background-position: left center; */
-
-
-
 }
 
 .copy-btn:hover {
@@ -151,11 +123,9 @@ main .right {
 .left-copy {
   position: absolute;
   bottom: 1rem;
-  /* left: 1rem; */
 }
 
 .right-copy {
   position: absolute;
   bottom: 2.5rem;
-  /* margin-top: 1rem; */
 }
